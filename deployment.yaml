@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: smartshop-container
-          image: smartshop:1.0
-          imagePullPolicy: IfNotPresent
+          image: lakshana5116/smartshop:1.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 8081
 
