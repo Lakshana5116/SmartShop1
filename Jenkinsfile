@@ -18,7 +18,7 @@ pipeline {
 
         stage('Docker Build') {
             steps {
-                bat 'docker build -t lakshana5116/smartshop:1.0 .'
+                bat 'docker build -t lakshana5116/smartshop:2.0 .'
             }
         }
 
@@ -38,7 +38,7 @@ pipeline {
 
         stage('Docker Push') {
             steps {
-                bat 'docker push lakshana5116/smartshop:1.0'
+                bat 'docker push lakshana5116/smartshop:2.0'
             }
         }
 
