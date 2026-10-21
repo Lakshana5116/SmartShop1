@@ -12,4 +12,4 @@ RUN mvn clean package
 
 EXPOSE 8081
 
-CMD ["mvn", "org.codehaus.mojo:exec-maven-plugin:3.5.0:java", "-Dexec.mainClass=com.smartshop.SmartShopWebApp"]
+CMD ["java", "-jar", "target/smartshop-1.0.0.jar"]
